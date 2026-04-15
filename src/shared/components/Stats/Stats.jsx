@@ -12,7 +12,6 @@ export default function Stats() {
 
   return (
     <div className="stats">
-      {/* overlay */}
       <div className="overlay"></div>
 
       <div className="container content">

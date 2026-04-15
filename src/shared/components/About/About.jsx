@@ -61,7 +61,6 @@ const About = () => {
             </div>
           </div>
 
-          {/* IMAGES */}
           <div className="col-lg-6 col-12 about-images px-2">
             <img src="/home.png" className="img1" alt="about" />
             <img src="/about2.png" className="img2" alt="about" />

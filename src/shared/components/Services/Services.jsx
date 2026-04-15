@@ -30,7 +30,6 @@ const Services = () => {
 
   return (
     <div className="services" id="services">
-      {/* overlay */}
       <div className="overlay"></div>
 
       <div className="container content">

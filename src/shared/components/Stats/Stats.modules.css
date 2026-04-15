@@ -5,7 +5,6 @@
     overflow: hidden;
 }
 
-/* optional decorative glow */
 .stats::before {
     content: "";
     position: absolute;
@@ -32,13 +31,11 @@
     border-radius: 50%;
 }
 
-/* content */
 .stats .content {
     position: relative;
     z-index: 2;
 }
 
-/* الكارد */
 .stat-card {
     background: #fff;
     padding: 50px 30px;
@@ -50,12 +47,10 @@
     overflow: hidden;
 }
 
-/* hover */
 .stat-card:hover {
     transform: translateY(-10px) scale(1.03);
 }
 
-/* خط سفلي متحرك */
 .stat-card::after {
     content: "";
     position: absolute;
@@ -71,7 +66,6 @@
     width: 100%;
 }
 
-/* الرقم */
 .stat-card h2 {
     font-size: 42px;
     font-weight: 900;
@@ -80,14 +74,12 @@
     letter-spacing: 1px;
 }
 
-/* النص */
 .stat-card p {
     color: #555;
     font-size: 15px;
     font-weight: 600;
 }
 
-/* موبايل */
 @media (max-width: 768px) {
     .stat-card {
         padding: 30px 20px;

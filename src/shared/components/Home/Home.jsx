@@ -7,7 +7,6 @@ const Home = () => {
 
   return (
     <div className="home" id="home">
-      {/* overlay */}
       <div className="overlay"></div>
 
       <div className="container content">
