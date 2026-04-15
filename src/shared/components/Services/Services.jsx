@@ -29,8 +29,11 @@ const Services = () => {
   ];
 
   return (
-    <div className="services py-5" id="services">
-      <div className="container">
+    <div className="services" id="services">
+      {/* overlay */}
+      <div className="overlay"></div>
+
+      <div className="container content">
         <div className="text-center mb-5">
           <h2 className="title">{t("services.title")}</h2>
           <p className="subtitle">{t("services.subtitle")}</p>

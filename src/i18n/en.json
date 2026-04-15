@@ -27,6 +27,14 @@
       "accuracy": {
         "title": "Extreme Accuracy",
         "desc": "At every step, we carefully review every number and document to ensure full technical and accounting perfection."
+      },
+      "security": {
+        "title": "Strong Security",
+        "desc": "We use advanced technologies to secure your data."
+      },
+      "growth": {
+        "title": "Business Growth",
+        "desc": "We help you scale and increase your business success."
       }
     }
   },

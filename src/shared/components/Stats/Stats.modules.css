@@ -1,38 +1,99 @@
-
-.stat-card {
-    background: #f2f2f2;
-    padding: 50px;
-    border-radius: 10px;
-    text-align: center;
+.stats {
     position: relative;
-    transition: 0.3s;
+    background: #ddd;
+    padding: 80px 0;
+    overflow: hidden;
 }
 
+/* optional decorative glow */
+.stats::before {
+    content: "";
+    position: absolute;
+    top: -50px;
+    left: -50px;
+    width: 200px;
+    height: 200px;
+    background: var(--main-color);
+    opacity: 0.15;
+    filter: blur(80px);
+    border-radius: 50%;
+}
+
+.stats::after {
+    content: "";
+    position: absolute;
+    bottom: -60px;
+    right: -60px;
+    width: 250px;
+    height: 250px;
+    background: var(--main-color);
+    opacity: 0.12;
+    filter: blur(100px);
+    border-radius: 50%;
+}
+
+/* content */
+.stats .content {
+    position: relative;
+    z-index: 2;
+}
+
+/* الكارد */
+.stat-card {
+    background: #fff;
+    padding: 50px 30px;
+    border-radius: 20px;
+    text-align: center;
+    transition: 0.4s;
+    position: relative;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+}
+
+/* hover */
+.stat-card:hover {
+    transform: translateY(-10px) scale(1.03);
+}
+
+/* خط سفلي متحرك */
 .stat-card::after {
     content: "";
     position: absolute;
     bottom: 0;
     left: 0;
-    width: 100%;
+    width: 0%;
     height: 4px;
     background: var(--main-color);
-    border-radius: 0 0 10px 10px;
+    transition: 0.4s;
 }
 
+.stat-card:hover::after {
+    width: 100%;
+}
+
+/* الرقم */
 .stat-card h2 {
-    font-size: 32px;
-    font-weight: 800;
-    color: #0b1b3f;
-    margin-bottom: 5px;
+    font-size: 42px;
+    font-weight: 900;
+    color: var(--main-color);
+    margin-bottom: 10px;
+    letter-spacing: 1px;
 }
 
+/* النص */
 .stat-card p {
-    color: var(--text-color);
+    color: #555;
     font-size: 15px;
     font-weight: 600;
-    margin: 0;
 }
 
-.stat-card:hover {
-    transform: translateY(-5px);
+/* موبايل */
+@media (max-width: 768px) {
+    .stat-card {
+        padding: 30px 20px;
+    }
+
+    .stat-card h2 {
+        font-size: 30px;
+    }
 }

@@ -8,8 +8,8 @@ const Layouts = () => {
     <div className="layouts">
       <Home />
       <About />
-      <Services />
       <Stats />
+      <Services />
     </div>
   );
 };

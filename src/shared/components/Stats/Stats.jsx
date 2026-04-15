@@ -11,8 +11,11 @@ export default function Stats() {
   ];
 
   return (
-    <div className="stats py-5">
-      <div className="container">
+    <div className="stats">
+      {/* overlay */}
+      <div className="overlay"></div>
+
+      <div className="container content">
         <div className="row g-4 justify-content-center">
           {stats.map((item, index) => (
             <div className="col-lg-4 col-md-6 col-12" key={index}>
