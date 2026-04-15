@@ -69,7 +69,7 @@
 /* موبايل */
 @media (max-width: 768px) {
     .home {
-        text-align: center;
+        text-align: start;
     }
 
     .home h1 {
