@@ -34,17 +34,26 @@ const Footer = () => {
                 <img src="/لوجو البحراوى.png" alt="logo" />
               </div>
 
-              <p>{t("footer.desc")}
-              </p>
+              <p>{t("footer.desc")}</p>
 
               <div className="links d-flex pb-3 gap-3">
-                <a>
+                <a href="#" target="_blank" rel="noreferrer">
                   <i className="bi bi-facebook"></i>
                 </a>
-                <a>
+
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <i className="bi bi-whatsapp"></i>
                 </a>
-                <a>
+
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <i className="bi bi-instagram"></i>
                 </a>
               </div>
