@@ -49,7 +49,7 @@ const About = () => {
 
           <div className="col-lg-6 col-12 about-images">
             <img src="/about.png" className="img1" alt="about" />
-            <img src="/about.png" className="img2" alt="about" />
+            <img src="/about2.png" className="img2" alt="about" />
           </div>
         </div>
       </div>
