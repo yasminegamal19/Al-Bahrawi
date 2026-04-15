@@ -1,0 +1,43 @@
+.home {
+    background-color: #efece7;
+}
+
+.home h1 {
+    color: var(--main-color);
+}
+
+.home span {
+    color: #6AD386;
+    font-weight: 600;
+}
+
+.home-img {
+    transition: 0.6s;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+
+.home-img:hover {
+    transform: scale(1.05);
+}
+
+.home .links .btn {
+    border-radius: 10px;
+    background-color: var(--main-color);
+    color: #fff;
+    font-size: 14px;
+    padding: 10px;
+}
+.home .btn:hover{
+    background-color: #fff;
+    color: var(--main-color);
+    border: 1px solid var(--main-color);
+}
+
+
+@media (max-width: 768px) {
+    .home-img {
+        transform: none !important;
+        width: 100%;
+    }
+}

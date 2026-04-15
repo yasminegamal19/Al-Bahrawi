@@ -1,0 +1,71 @@
+{
+  "navbar": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "terms": "Terms and Conditions",
+    "privacy": " Privacy Policy",
+    "language_ar": "Arabic",
+    "language_en": "English",
+    "contact_us": "Contact Us"
+  },
+  "home": {
+    "title": "Al-Bahrawi",
+    "desc1": "We provide comprehensive accounting and financial consulting services to help you manage your business efficiently and achieve sustainable growth.",
+    "desc2": "With a team of experienced professionals, we ensure accuracy, transparency, and tailored solutions that meet your business needs.",
+    "aboutBtn": "Learn More About Us",
+    "consultBtn": "Request Your Consultation Now"
+  },
+  "about": {
+    "whyChooseUs": "Why Choose Us?",
+    "title": "Experts with real market experience that ensure your success",
+    "features": {
+      "privacy": {
+        "title": "Full Confidentiality Commitment",
+        "desc": "Your financial data is safe. We apply the highest standards of privacy and security in all our dealings."
+      },
+      "accuracy": {
+        "title": "Extreme Accuracy",
+        "desc": "At every step, we carefully review every number and document to ensure full technical and accounting perfection."
+      }
+    }
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "We provide comprehensive financial solutions tailored to your business needs, ensuring growth and stability.",
+
+    "items": {
+      "tax": {
+        "title": "Tax Consultations",
+        "desc": "Strategic tax planning to ensure full compliance and maximize financial efficiency."
+      },
+      "accounting": {
+        "title": "Accounting",
+        "desc": "Managing financial records with precision and transparency to support your business decisions."
+      },
+      "companies": {
+        "title": "Company Formation",
+        "desc": "Start your business journey with full legal and administrative support."
+      },
+      "audit": {
+        "title": "Audit & Review",
+        "desc": "Accurate financial auditing to enhance transparency and build trust with stakeholders."
+      }
+    }
+  },
+  "footer": {
+    "desc": "We offer highly professional accounting and financial consulting services that help you develop your business and achieve success.",
+    "quickLinks": "Quick Links",
+    "about": "About Us",
+    "services": "Services",
+    "terms": "Terms & Conditions",
+    "privacy": "Privacy Policy",
+    "contact": "Contact Us"
+  },
+  "stats": {
+    "clients": "Happy Clients",
+    "consultations": "Completed Consultations",
+    "experience": "Years of Experience"
+  },
+  "copyright": "© 2026 Brmja Tech. All rights reserved."
+}
