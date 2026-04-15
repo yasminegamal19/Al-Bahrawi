@@ -11,7 +11,10 @@ const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [isSticky, setIsSticky] = useState(false);
 
-  const toggleMenu = () => setMenuOpen(!menuOpen);
+  const toggleMenu = () => {
+      console.log("clicked");
+    setMenuOpen(!menuOpen);
+  }
   const closeMenu = () => setMenuOpen(false);
 
   useEffect(() => {
@@ -160,7 +163,7 @@ const Navbar = () => {
           </div>
         </div>
 
-        {/* <div className={`mobile-menu ${menuOpen ? "show" : ""}`}>
+        <div className={`mobile-menu ${menuOpen ? "show" : ""}`}>
           <button className="close-mobile-menu" onClick={toggleMenu}>
             ×
           </button>
@@ -253,7 +256,7 @@ const Navbar = () => {
               </div>
             </li>
           </ul>
-        </div> */}
+        </div>
       </div>
     </nav>
   );
